@@ -1,0 +1,14 @@
+.footer{
+    margin-top: auto;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    color: var(--color-white);
+    background-color: var(--color-black);
+}
+
+.footer__navbar__nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}

@@ -1,0 +1,25 @@
+.header{
+    padding: 15px;
+    font-family: var(--font-primary);
+    background-color: var(--color-white);
+    box-shadow: 0 1px 0 var(--color-black);
+    font-size: 1.8rem;
+}
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar__nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.navbar__nav__link.active{
+    color: var(--color-primary);
+}

@@ -1,0 +1,16 @@
+.product .grid{
+    display: grid;
+    gap: 3rem;
+}
+
+@media only screen and (min-width: 576px) {
+    .product .grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .product .grid{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
